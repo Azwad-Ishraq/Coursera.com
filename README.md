@@ -1,6 +1,6 @@
 # Coursera.com. Buy Courses.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://awesome-villani-a71e52.netlify.app/).
 
 ## Available Scripts
 
