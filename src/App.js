@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Courses from './components/Courses/Courses';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <nav>
+          <div className="nav-menu">
+            <h1>Coursera.com</h1>
+            <ul>
+              <li id='home'>Home</li>
+              <li>Your Course</li>
+              <li>Offers</li>
+              <li>Job opportunities</li>
+            </ul>
+          </div>
+        </nav>
       </header>
+      <Courses></Courses>
     </div>
   );
 }

@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -12,7 +10,37 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+body{
+  background-color: #1b1c21;
+}
+header nav{
+  display: flex;
+  color: white;
+}
+.nav-menu{
+  display: flex;
+  margin-left: 20px;
+}
+.nav-menu ul{
+  display: flex;
+}
+.nav-menu ul li{
+  list-style-type: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 10px;
+  margin-right: 20px;
+  color: #5e5f63;
+}
+.nav-menu ul li:hover{
+  background-color: #3c51fa;
+  color: white;
+}
+#home{
+  background-color: #3c51fa;
+  color: white;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
