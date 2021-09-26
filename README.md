@@ -4,7 +4,9 @@ This project was bootstrapped with [Create React App](https://awesome-villani-a7
 
 ## Available Scripts
 
-In the project directory, you can run:
+1. This is a react website where you can add an product to your cart.
+2.Your cart will be displayed in the site
+3. When you add an item your cart, the will update and the total price will also be updated.
 
 ### `npm start`
 
